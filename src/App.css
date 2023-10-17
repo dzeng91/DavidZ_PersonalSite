@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+  background: url("./logos/blackbackground1.jpeg") no-repeat center bottom;
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed
+
+}
+
+.logo {
+  background: url("./logos/nyylogo.png");
+  display: block;
+  max-width: 100%;
+  
+
+}
+
+.bio-pic {
+  margin: 5px;
+  width: 75%;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.bodyContact-container {
+  display: flex;
+  flex-flow: column wrap;
+  color: red;
+  background-color: black;
+  justify-content: space-around;
+  padding: 2%;
+  height: 30vh;
+  width: 30vh;
+  margin: 10vh;
+  
+}
+
+.contact-container {
+  margin: 10vh
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  
+}
+
+.nyylogo {
+  object-fit: cover;
+  overflow: visible;
+  height: 100px;
+  width: 100px
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  font-size: xx-large;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 5vh;
+  background-color: rgb(54, 54, 54);
+  overflow: visible
+
+}
+
+.body-container {
+  display:flex;
+  text-align: center;
+
+}
+
+.landing-pic {
+  background-image: url("https://s.yimg.com/ny/api/res/1.2/X.rqLW.9uMbQP85dtrWzow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/os/creatr-uploaded-images/2023-07/0caeee00-35a9-11ee-a532-1741310d540e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 0px;
+  padding-top: 294px;
+  padding-bottom: 295px;
+  color: white;
+
+}
+
+.intro-container {
+  display: flex;
+  height: fit-content;
+  padding: 5vh;
+  justify-content: space-around;
+  margin: auto;
+
+}
+
+.my-container {
+  display: grid
+}
+
+.profile-pic {
+  background-image: url("./logos/morraine.jpeg");
+  height: 60vh;
+  width: 100%;
+  margin-top: 10vh;
+
+
+}
+
+.info-container {
+  display: flex;
+  height: fit-content;
+  margin: 10vh;
+  padding: 4vh;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.github-link{
+  color: yellow
+
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10vh;
+
+}
+
+.email {
+  color: white;
+  size: 10vh;
+
+}
+
+.github {
+  color: white;
+  size: 10vh;
+
+}
+
+.footer{
+  color: white
+  
+}
+
+.footer-container {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

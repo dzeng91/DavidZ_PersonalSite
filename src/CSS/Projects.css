@@ -1,0 +1,66 @@
+.Projects {
+    color: white;
+    text-align: center;
+
+}
+
+.project-container {
+    margin: 10vh;
+    -webkit-transition: color 2s;
+    -moz-transition:    color 2s;
+    -ms-transition:     color 2s;
+    -o-transition:      color 2s;
+    transition:         color 2s;
+
+}
+/* 
+.stuff-container {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+
+}
+
+.stuff-container:active {
+    transform: translateY(0);
+    opacity: 1;
+} */
+
+.my-projects {
+    font-size: 15vh;
+    font-weight: bolder;
+    -webkit-transition: color 2s;
+    -moz-transition:    color 2s;
+    -ms-transition:     color 2s;
+    -o-transition:      color 2s;
+    transition:         color 2s;
+
+}
+
+.my-projects:hover {
+    color: rgb(157, 208, 54)
+
+}
+
+.project-title {
+    font-size: 5vh
+
+}
+
+.content-projects {
+    font-size: 4vh;
+    font-weight: bold;
+    margin: 2vh
+
+}
+
+.project-intro {
+    font-size: 3vh
+
+}
+
+.project-description {
+    font-size: 2vh;
+    margin: 1vh
+
+}

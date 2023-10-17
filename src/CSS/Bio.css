@@ -1,0 +1,46 @@
+.Bio {
+    color: white;
+    opacity: 0%;
+    width: 70vh;
+    height: fit-content;
+    font-size: 43px;
+    margin-top: 18vh;
+    margin-bottom: 15vh;
+    text-align: left;
+    width: 100%;
+    justify-content: center;
+    /* -webkit-transition: color 2s;
+    -moz-transition:    color 2s;
+    -ms-transition:     color 2s;
+    -o-transition:      color 2s;
+    transition:         color 2s;
+    transition: all 1s ease-out; */
+    animation: fadeIn 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+  }
+  
+
+.hello {
+    font-size: 70px;
+    /* color: black;
+    opacity: 0%;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s; */
+
+}
+
+/* .hello:hover {
+    color: rgb(157, 208, 54);
+    opacity: 100%
+
+} */

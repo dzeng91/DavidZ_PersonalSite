@@ -7,6 +7,17 @@ function Projects() {
       <div className = "my-projects">My Projects</div>
       <div className = "content-projects">
       <div className = "project-container">
+        <h2 className = "project-title">Inanimatees Personality Test | Developer | November 2023</h2>
+          <a className = "github-link" href="https://www.inanimatees.com/"> Site Link </a>
+          <h3 className = "project-intro">Take our personality test and discover what quirky inanimate object you are! From a dirty window to a pair of reading glasses, find out which of our objects best matches your answers.
+          </h3>
+          <h3 className = "project-intro">Designed and developed with fellow developer friends as a spin on classic personality tests where the questions and results are fun and quirky.
+          </h3>
+            <h4 className = "project-description">- Developed on the frontend using TypeScript, React.js, Redux, CSS, HTML and on the backend using Next.js.
+            <h4 className = "project-description">- With five character trait combinations (Direct/Abstract, Organized/Unkept,  Calm/Stimulating, Flexible/Robust, Lasting/Ephemeral) there are many possible object assignments for everyone and their friends and families to be assigned. A more detailed dive into your personality is in the results page.</h4>
+            </h4>
+      </div>
+      <div className = "project-container">
         <h1 className = "project-title">RetroGaming eCommerce Website | Developer | January 2023</h1>
           <a className = "github-link" href="https://github.RetroGamingProMax.git"> Github Link </a>
           <h3 className = "project-intro">An eCommerce site specializing in selling older “retro” video games and systems. 

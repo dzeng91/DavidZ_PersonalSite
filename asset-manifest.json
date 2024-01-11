@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DavidZ_PersonalSite/static/css/main.7c78b62d.css",
+    "main.js": "/DavidZ_PersonalSite/static/js/main.a9b22c91.js",
+    "static/js/787.0659898b.chunk.js": "/DavidZ_PersonalSite/static/js/787.0659898b.chunk.js",
+    "static/media/nyylogo.png": "/DavidZ_PersonalSite/static/media/nyylogo.f81271b0a696d71fdcb2.png",
+    "static/media/blackbackground1.jpeg": "/DavidZ_PersonalSite/static/media/blackbackground1.b787c2328e0fbc4c9fe9.jpeg",
+    "index.html": "/DavidZ_PersonalSite/index.html",
+    "main.7c78b62d.css.map": "/DavidZ_PersonalSite/static/css/main.7c78b62d.css.map",
+    "main.a9b22c91.js.map": "/DavidZ_PersonalSite/static/js/main.a9b22c91.js.map",
+    "787.0659898b.chunk.js.map": "/DavidZ_PersonalSite/static/js/787.0659898b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c78b62d.css",
+    "static/js/main.a9b22c91.js"
+  ]
+}

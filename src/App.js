@@ -25,8 +25,8 @@ function App() {
             <Technologies className = "technologies-container"/>
           </div> */}
         </div>
-        </div>
-        <div className = "my-container">
+      </div>
+      <div className = "my-container">
           {/* <div className = "profile-pic"/> */}
           {/* <div className = "bodyContact-container">
           </div> */}
@@ -39,7 +39,7 @@ function App() {
             {/* <Experience className = "experience-container"/>
             <Hobbies className = "hobbies-container"/> */}
         </div>
-        </div>
+      </div>
       <Footer className = "footer-container"/>
     </div>
   );

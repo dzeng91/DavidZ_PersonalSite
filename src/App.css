@@ -95,7 +95,8 @@
   border-bottom: 1px solid;
   height: 5vh;
   background-color: rgb(54, 54, 54);
-  overflow: visible
+  overflow: visible;
+  z-index: 2
 
 }
 
@@ -122,10 +123,12 @@
 .intro-container {
   display: flex;
   height: fit-content;
-  padding: 5vh;
+  padding: 10vh;
   justify-content: space-around;
   margin: auto;
+  z-index: 1;
 
+  
 }
 
 .my-container {
